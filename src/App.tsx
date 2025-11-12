@@ -936,7 +936,7 @@ export default function App() {
     <div className="app">
       <aside className="sidebar">
         <div className="brand">
-          <img src="/logo.png" alt="Logo" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" />
           <h1></h1>
         </div>
         <nav className="nav">

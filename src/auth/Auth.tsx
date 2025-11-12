@@ -67,7 +67,7 @@ export default function Auth({ onAuthed }: { onAuthed: () => void }) {
   return (
     <div className="auth-shell">
       <div className="auth-brand">
-        <img src="/logo.png" alt="VTL Logo" />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="VTL Logo" />
         <h1>VTL CRM</h1>
         <p className="muted">Manage leads, tickets, and customers</p>
       </div>
